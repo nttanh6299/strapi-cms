@@ -1,5 +1,16 @@
 const config = {
+  tutorials: false,
+  notifications: { releases: false },
+  translations: {
+    vi: {
+      "app.components.LeftMenu.navbrand.title": "LP Admin",
+    },
+    en: {
+      "app.components.LeftMenu.navbrand.title": "LP Admin",
+    },
+  },
   locales: [
+    'vi',
     // 'ar',
     // 'fr',
     // 'cs',
@@ -23,7 +34,6 @@ const config = {
     // 'th',
     // 'tr',
     // 'uk',
-    // 'vi',
     // 'zh-Hans',
     // 'zh',
   ],

@@ -7,14 +7,17 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "clean": "rm -rf build .cache"
   },
   "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.9.0",
-    "@strapi/plugin-users-permissions": "4.9.0",
+    "@notum-cz/strapi-plugin-content-versioning": "^0.4.7",
     "@strapi/plugin-i18n": "4.9.0",
-    "better-sqlite3": "8.0.1"
+    "@strapi/plugin-users-permissions": "4.9.0",
+    "@strapi/strapi": "4.9.0",
+    "better-sqlite3": "8.0.1",
+    "strapi-plugin-publisher": "^1.3.3"
   },
   "author": {
     "name": "A Strapi developer"
